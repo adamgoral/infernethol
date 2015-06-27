@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InferNetHOL.CSharp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="priceSourcePath" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">file://C:/Users/Adam/MarketData/Prices/</Value>
+    </Setting>
+    <Setting Name="instrumentsSourcePath" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">file://C:/Users/Adam/MarketData/Instrumentsmidus.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

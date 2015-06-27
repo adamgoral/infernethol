@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InferNetHOL", "InferNetHOL\InferNetHOL.fsproj", "{973DF49D-70CA-4628-8294-3EE86A42C703}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InferNetHOL.Tests", "InferNetHOL.Tests\InferNetHOL.Tests.fsproj", "{6A35D737-89D7-437E-845B-5DA4347EB956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferNetHOL.CSharp.Tests", "InferNetHOL.CSharp.Tests\InferNetHOL.CSharp.Tests.csproj", "{F2C7BE92-F9AE-458E-9A3A-F59E92656DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferNetHOL.UI", "InferNetHOL.UI\InferNetHOL.UI.csproj", "{A3316BAF-6DB2-4C59-9213-A272E72E50E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferNetHOL.CSharp", "InferNetHOL.CSharp\InferNetHOL.CSharp.csproj", "{BDA1BF08-1A9A-4697-9FD1-2DB31A3571AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferNetHOL.Clustering", "InferNetHOL.Clustering\InferNetHOL.Clustering.csproj", "{784EEFF6-CD22-4BD6-BE04-55700DD01BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8AA1B87E-094B-4378-90C1-63488610E293}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{973DF49D-70CA-4628-8294-3EE86A42C703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973DF49D-70CA-4628-8294-3EE86A42C703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973DF49D-70CA-4628-8294-3EE86A42C703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973DF49D-70CA-4628-8294-3EE86A42C703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A35D737-89D7-437E-845B-5DA4347EB956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A35D737-89D7-437E-845B-5DA4347EB956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A35D737-89D7-437E-845B-5DA4347EB956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A35D737-89D7-437E-845B-5DA4347EB956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C7BE92-F9AE-458E-9A3A-F59E92656DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C7BE92-F9AE-458E-9A3A-F59E92656DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C7BE92-F9AE-458E-9A3A-F59E92656DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C7BE92-F9AE-458E-9A3A-F59E92656DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3316BAF-6DB2-4C59-9213-A272E72E50E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3316BAF-6DB2-4C59-9213-A272E72E50E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3316BAF-6DB2-4C59-9213-A272E72E50E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3316BAF-6DB2-4C59-9213-A272E72E50E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA1BF08-1A9A-4697-9FD1-2DB31A3571AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA1BF08-1A9A-4697-9FD1-2DB31A3571AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA1BF08-1A9A-4697-9FD1-2DB31A3571AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA1BF08-1A9A-4697-9FD1-2DB31A3571AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784EEFF6-CD22-4BD6-BE04-55700DD01BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784EEFF6-CD22-4BD6-BE04-55700DD01BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784EEFF6-CD22-4BD6-BE04-55700DD01BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784EEFF6-CD22-4BD6-BE04-55700DD01BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
